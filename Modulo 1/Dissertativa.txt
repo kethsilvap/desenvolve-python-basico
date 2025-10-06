@@ -1,0 +1,19 @@
+Solução Dissertativa - Tabuada do 9
+
+Objetivo:
+Calcular o resultado da multiplicação de 9 por um número n utilizando o truque da tabuada do 9.
+
+Entrada:
+Um número inteiro n.
+
+Processamento:
+1. Ler o valor de n.
+2. Calcular a dezena: n - 1.
+3. Calcular a unidade: 10 - n.
+4. Calcular o resultado: (n - 1) * 10 + (10 - n).
+
+Saída:
+Exibir o valor final da multiplicação.
+
+Exemplo:
+n = 7 → (7 - 1)*10 + (10 - 7) = 63 → Resultado: 9 x 7 = 63
