@@ -1,0 +1,12 @@
+Algoritmo TabuadaDo9
+    // Entrada (n fixo)
+    n ← 7
+
+    // Processamento
+    dezena ← n - 1           // 7 - 1 = 6
+    unidade ← 10 - n         // 10 - 7 = 3
+    resultado ← (dezena * 10) + unidade   // (6 * 10) + 3 = 63
+
+    // Saída
+    Escreva("9 x ", n, " = ", resultado)   // Imprime: 9 x 7 = 63
+FimAlgoritmo
